@@ -1,4 +1,16 @@
 .page {
   background-color: #2A2C2F;
   border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 28px 48px 24px 48px;
+  font-family: Inter;
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+      max-width: 1280px;
+    }
+
 }
