@@ -3,6 +3,7 @@
   border: 1px solid red;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 28px 48px 24px 48px;
   font-family: Inter;
