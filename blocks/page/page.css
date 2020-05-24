@@ -4,13 +4,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2.2% 3.75% 1.9% 3.75%;
+  padding: 28px 48px 24px;
   font-family: Inter;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
     .page {
-      max-width: 1280px;
+      max-width: 1440px;
+      min-width: 1280px;
     }
 
 }

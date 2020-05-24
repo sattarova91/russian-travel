@@ -4,6 +4,5 @@
 @import url(./__title/lead__title.css);
 
 .lead {
-  border: 1px solid red;
   padding: 0px 100px 0px 100px;
 }
