@@ -10,14 +10,26 @@
   list-style-type: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .intro__list {
+@media screen and (max-width: 1439px) {
+  .lead__list {
     max-width: 690px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .intro__list {
+@media screen and (max-width: 1279px) {
+  .lead__list {
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__list {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__list {
     max-width: 288px;
   }
 }

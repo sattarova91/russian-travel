@@ -2,3 +2,20 @@
   max-width: 100%;
   width: 100%;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    margin: 0px -24px 0px -24px;
+    max-width: calc(100% + 48px);
+    width: calc(100% + 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin: 0px -16px 0px -16px;
+    max-width: calc(100% + 32px);
+    width: calc(100% + 32px);
+  }
+}
