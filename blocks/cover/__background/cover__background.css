@@ -1,0 +1,8 @@
+.cover__background {
+  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  margin: auto 0;
+}

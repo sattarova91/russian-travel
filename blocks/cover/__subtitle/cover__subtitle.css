@@ -1,14 +1,12 @@
-.place__link {
+.cover__subtitle {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
   color: #FFFFFF;
-  text-decoration-line: underline;
-}
-
-.place__link:hover {
-  text-decoration-line: underline;
-  opacity: 0.8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 360px;
 }
