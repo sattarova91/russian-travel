@@ -4,5 +4,29 @@
 @import url(./__title/lead__title.css);
 
 .lead {
-  padding: 0px 100px 0px 100px;
+  padding: 56px 100px 0px 100px;
+}
+
+@media screen and (max-width: 1440px) {
+  .lead {
+    padding: 56px 100px 0px 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    padding: 48px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 48px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding: 48px 0px 0px;
+  }
 }
