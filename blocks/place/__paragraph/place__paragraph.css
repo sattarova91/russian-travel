@@ -5,4 +5,35 @@
   font-size: 18px;
   line-height: 30px;
   color: #FFFFFF;
+  max-width: 484px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 24px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
 }

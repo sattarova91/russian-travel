@@ -11,19 +11,19 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .lead__title {
+  .intro__title {
     max-width: 690px;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  .lead__title {
+  .intro__title {
     max-width: 690px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .lead__title {
+  .intro__title {
     max-width: 720px;
   }
 }
