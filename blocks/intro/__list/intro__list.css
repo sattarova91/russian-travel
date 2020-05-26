@@ -10,17 +10,6 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 1439px) {
-  .lead__list {
-    max-width: 690px;
-  }
-}
-
-@media screen and (max-width: 1279px) {
-  .lead__list {
-    max-width: 690px;
-  }
-}
 
 @media screen and (max-width: 1023px) {
   .lead__list {

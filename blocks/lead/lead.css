@@ -7,25 +7,7 @@
   padding: 56px 100px 0px 100px;
 }
 
-@media screen and (max-width: 1439px) {
-  .lead {
-    padding: 56px 100px 0px 100px;
-  }
-}
-
 @media screen and (max-width: 1279px) {
-  .lead {
-    padding: 48px 0px 0px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .lead {
-    padding: 48px 0px 0px;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .lead {
     padding: 48px 0px 0px;
   }
