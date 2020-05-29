@@ -5,3 +5,11 @@
 .cover {
   padding-top: 92px;
 }
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1184px;
+  }
+}

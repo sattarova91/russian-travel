@@ -9,3 +9,14 @@
   margin-left: 18px;
   text-decoration: none;
 }
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: 0.3s linear;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

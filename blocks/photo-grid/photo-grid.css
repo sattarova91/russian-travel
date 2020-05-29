@@ -6,13 +6,12 @@
   grid-gap: 16px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (min-width: 1280px) {
   .photo-grid {
-    grid-gap: 16px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1184px;
   }
-
 }
 
 @media screen and (max-width: 1279px) {
