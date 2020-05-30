@@ -4,6 +4,30 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding: 19.5% 0;
   position: relative;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__content {
+    padding: 20.9% 0;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__content {
+    padding: 19.15% 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__content {
+    padding: 15.1% 0;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__content {
+    padding: 8% 0;
+  }
 }

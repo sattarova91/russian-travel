@@ -14,5 +14,6 @@
   .footer__copyright {
     padding-top: 16px;
     text-align: left;
+    align-self: flex-start;
   }
 }
