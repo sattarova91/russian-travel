@@ -13,3 +13,17 @@
     width: 1184px;
   }
 }
+
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding-top: 88px
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .covert {
+    padding-top: 64px;
+  }
+}
